@@ -1,0 +1,91 @@
+
+.body{
+    background-image: url('../../public/images/background.jpg');
+    background-size: 100% 97vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shade{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    margin-top: -18px;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+header li{
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: gray;
+    transition: 800ms;
+    text-decoration: underline;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 72vh;
+}
+.introduction .name{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+
+.info{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 5px 5px 8px gray;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+.profile-pic img{
+    border-radius: 25px;
+}
+.skills meter{
+    width: 500px;
+}
+.aboutme p{
+    line-height: 200%;
+}
+
+
+.projects{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;   
+}
+.projects h2{
+    text-align: center;
+}
+.project-items{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
